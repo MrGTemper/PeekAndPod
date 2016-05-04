@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/kakukinsen/Desktop/3DTouch/3DTouch/DetailViewController.m \
-  /Users/kakukinsen/Desktop/3DTouch/3DTouch/DetailViewController.h
+  /Users/kakukinsen/GitHub/PeekAndPod/3DTouch/3DTouch/DetailViewController.m \
+  /Users/kakukinsen/GitHub/PeekAndPod/3DTouch/3DTouch/DetailViewController.h
