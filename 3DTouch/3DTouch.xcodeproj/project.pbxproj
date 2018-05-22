@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A107388620B4153700A6ACAC /* 3DTouch.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; name = 3DTouch.ipa; path = ../../3DTouch.ipa; sourceTree = "<group>"; };
 		EEBA186A1CD1B47B00F5D4C6 /* 3DTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEBA186E1CD1B47B00F5D4C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EEBA18701CD1B47B00F5D4C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +62,7 @@
 		EEBA186C1CD1B47B00F5D4C6 /* 3DTouch */ = {
 			isa = PBXGroup;
 			children = (
+				A107388620B4153700A6ACAC /* 3DTouch.ipa */,
 				EEBA18701CD1B47B00F5D4C6 /* AppDelegate.h */,
 				EEBA18711CD1B47B00F5D4C6 /* AppDelegate.m */,
 				EEBA18731CD1B47B00F5D4C6 /* ViewController.h */,
@@ -115,6 +117,7 @@
 				TargetAttributes = {
 					EEBA18691CD1B47B00F5D4C6 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9K2NLGYYQN;
 					};
 				};
 			};
@@ -269,9 +272,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9K2NLGYYQN;
 				INFOPLIST_FILE = 3DTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "BDHOME.-DTouch";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sungoin.sunke;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -280,9 +285,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9K2NLGYYQN;
 				INFOPLIST_FILE = 3DTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "BDHOME.-DTouch";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sungoin.sunke;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -306,6 +313,7 @@
 				EEBA18831CD1B47B00F5D4C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
